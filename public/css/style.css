@@ -1,0 +1,214 @@
+/* Fonts */
+
+body {
+    font-family: 'IM Fell DW Pica', georgia, serif;
+    font-size: 16px;
+    }
+    
+h1 strong, div.footer a {
+    font-family: 'IM Fell DW Pica SC', georgia, serif;
+    /* font-variant: small-caps; */
+    }
+
+
+/* Layout and styles */
+
+html {
+    height: 100%;
+    }
+
+body {
+    margin: 0;
+    padding: 0 0 2em 0; /* For some reason this is the only way to get space at the bottom of the site. Weird. */
+    }
+
+div.fixed-background-hack {
+    background: #ddd url('/images/paint-4.png') no-repeat center center;
+    background-size: cover;
+    z-index: -100;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    }
+
+div.content {
+    padding: 1em 0 2em;
+    margin: 0 auto;
+    width: 19.25em; /* (0.5em padding + 16em thumbnail + 0.5em padding) * 1 + 2em for margin in between and on each side + 0.25em for borders */
+    }
+    
+div.content h1 {
+    font-size: 1.5em;
+    margin: 0 1em 1rem 0;
+    text-align: right;
+    color: #666;
+    text-transform: lowercase;
+    }
+    
+div.content h1 strong {
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #333;
+    text-transform: none;
+    display: block;
+    padding-right: 44px;
+    padding-top: 5px;
+    background: url('/images/avatar36.png') no-repeat right;
+    }
+
+div.content a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 1em 0 0 1em;
+    padding: 0.5em;
+    border: 1px solid #aaa;
+    background: #eee; /* Fallback for browsers that don't support rgba. */
+    background: rgba(238, 238, 238, 0.5);
+    -moz-box-shadow: 0px 0px 5px #999;
+    -webkit-box-shadow: 0px 0px 5px #999;
+    box-shadow: 0px 0px 5px #999;
+    -moz-border-radius: 0.25em;
+    -webkit-border-radius: 0.25em;
+    border-radius: 0.25em;
+    line-height: 1.4em;
+    }
+    
+div.content a:hover {
+    border: 1px solid #999;
+    background: #fff; /* Fallback for browsers that don't support rgba. */
+    background: rgba(255, 255, 255, 1);
+    }
+    
+div.content a img {
+    display: block;
+    margin-bottom: 0.5em;
+    width: 16em;
+    height: 10.5em;
+    border: 1px solid #aaa;
+    }
+    
+div.content a:hover img {
+    border: 1px solid #999;
+    }
+    
+div.content a small {
+    font-family: 'IM Fell DW Pica SC', georgia, serif;
+    font-size: 0.9em;
+    color: #777;
+    -moz-text-shadow: 1px 1px 0px #fff;
+    -webkit-text-shadow: 1px 1px 0px #fff;
+    text-shadow: 1px 1px 0px #fff;
+    }
+    
+div.footer {
+    color: #444;
+    margin: 3em auto 0;
+    padding-top: 2.5em;
+    width: 14.25em;
+    clear: both;
+    -moz-text-shadow: 1px 1px 0px #fff;
+    -webkit-text-shadow: 1px 1px 0px #fff;
+    text-shadow: 1px 1px 0px #fff;
+    }
+    
+div.footer div {
+    text-align: center;
+    }
+
+div.footer div.copyright {
+    margin-top: 1em;
+    }
+    
+div.footer a {
+    color: #222;
+    text-decoration: none;
+    border-bottom: 1px solid #aaa;
+    margin-left: 0.75em;
+    background: no-repeat left center;
+    }
+    
+div.footer a:hover {
+    color: #000;
+    border-bottom: 1px solid #777;
+    }
+    
+div.footer a.resume {
+    background-image: url('/images/document-pdf-text.png');
+    padding-left: 20px;
+    }
+    
+div.footer a.email {
+    background-image: url('/images/mail.png');
+    padding-left: 21px;
+    }
+
+small {
+    font-size: 0.8em;
+    }
+
+/* when the user's browser size is greater than ~632px */
+@media screen and (min-width: 39.5em) {
+    div.content {
+        width: 37.5em; /* (0.5em padding + 16em thumbnail + 0.5em padding) * 2 + 3em for margin in between and on each side + 0.5em for borders */
+        }
+
+    div.footer {
+        width: 31.5em;
+        }
+        
+    div.content h1 strong {
+        display: inline;
+        }
+
+    div.footer div {
+        margin: 0 !important;
+        }
+    
+    div.footer div.copyright {
+        text-align: left;
+        }
+        
+    div.footer div.links {
+        text-align: right;
+        float: right;
+        }
+        
+}
+
+/* when the user's browser size is greater than ~924px */
+@media screen and (min-width: 57.75em) {
+    div.content {
+        width: 55.75em; /* (0.5em padding + 16em thumbnail + 0.5em padding) * 3 + 4em for margin in between and on each side + 0.75em for borders */
+        }
+
+    div.footer {
+        width: 49.75em;
+        }
+}
+
+/* when the user's browser size is greater than ~1184px
+@media screen and (min-width: 74em) {
+    div.content {
+        width: 74em; /* (0.5em padding + 16em thumbnail + 0.5em padding) * 4 + 5em for margin in between and on each side + 1em for borders
+        }
+
+    div.footer {
+        width: 68em;
+        }
+}
+
+/* when the user's browser size is greater than ~1476px
+@media screen and (min-width: 92.25em) {
+    div.content {
+        width: 92.25em; /* (0.5em padding + 16em thumbnail + 0.5em padding) * 5 + 6em for margin in between and on each side + 1.25em for borders
+        }
+
+    div.footer {
+        width: 86.25em;
+        }
+} */
