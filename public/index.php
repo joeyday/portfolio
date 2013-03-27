@@ -4,8 +4,9 @@
         <meta charset="UTF-8" /> 
         <meta name="viewport" content="width=device-width" />
         <title>Portfolio ‹ Joey Day</title>
-        <link rel="stylesheet" type="text/css" href="/css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/reset.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
         <link href='http://fonts.googleapis.com/css?family=Copse' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400,400italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC' rel='stylesheet' type='text/css'>
@@ -23,7 +24,7 @@
         </div>
         <div class="footer">
             <div class="links">
-                <p>See also: <a class="resume" href="http://jday.us/resume">Résumé</a> <a class="email" href="http://jday.us/e-mail">E-mail</a></p>
+                <p><a href="http://jday.us/resume"><i class="icon-download"></i> Résumé</a> <a href="http://jday.us/github"><i class="icon-github-alt"></i> Github</a> <a href="http://jday.us/twitter"><i class="icon-twitter"></i> Twitter</a></p>
             </div>
             <div class="copyright">
                 <p>&copy; <?php echo "<small>" . dec2rom(2011) . "</small>"; if (date('Y') > 2011) echo "–<small>" . dec2rom(date('Y')) . "</small>"; ?> Joey Day</p>
