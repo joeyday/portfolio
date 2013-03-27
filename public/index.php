@@ -2,6 +2,7 @@
 <html lang="en"> 
     <head>
         <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width" />
         <title>Portfolio ‹ Joey Day</title>
         <link rel="stylesheet" type="text/css" href="/css/reset.css" />
         <link rel="stylesheet" type="text/css" href="/css/style.css" />
@@ -13,7 +14,7 @@
         <div class="fixed-background-hack">&nbsp;</div>
         <div class="content">
             <h1>The Web Design Portfolio of <strong>Joey Day</strong></h1>
-            <a href="http://totascriptura.org"><img src="/images/totascriptura-thumb.png" alt="“Skinny” MediaWiki skin thumbnail" /> Fig. 1: Tota Scriptura<br /><small>MediaWiki skin, 2013</small></a>
+            <a href="http://totascriptura.org/view/Providence"><img src="/images/totascriptura-thumb.png" alt="“Skinny” MediaWiki skin thumbnail" /> Fig. 1: Tota Scriptura<br /><small>MediaWiki skin, 2013</small></a>
             <a href="http://papers.jday.us/view/efas"><img src="/images/papers-thumb.png" alt="“A4” MediaWiki skin thumbnail" /> Fig. 2: Joey’s Papers<br /><small>MediaWiki skin, 2011</small></a>
             <a href="/christiangiftandbible"><img src="/images/christiangiftandbible-thumb.png" alt="Bookstore Drupal theme thumbnail" /> Fig. 3: Christian Gift & Bible<br /><small>Drupal theme, 2007</small></a>
             <a href="/syzygy"><img src="/images/syzygy-thumb.png" alt="“Syzygy” WordPress theme thumbnail" /> Fig. 4: Syzygy<br /><small>WordPress theme, 2006</small></a>
