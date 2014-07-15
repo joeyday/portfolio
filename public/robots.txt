@@ -1,0 +1,7 @@
+# robots.txt for http://portfolio.joeyday.com
+
+User-agent: *
+Disallow: /christiangiftandbible/
+Disallow: /fellowsites/
+Disallow: /syzygy/
+Disallaw: /union/

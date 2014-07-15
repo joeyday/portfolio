@@ -15,12 +15,13 @@
         <div class="fixed-background-hack">&nbsp;</div>
         <div class="content">
             <h1>The Web Design Portfolio of <strong>Joey Day</strong></h1>
-            <a href="http://totascriptura.org/view/Providence"><img src="/images/totascriptura-thumb.png" alt="“Skinny” MediaWiki skin thumbnail" /> Fig. 1: Tota Scriptura<br /><small>MediaWiki skin, 2013</small></a>
-            <a href="http://papers.jday.us/view/efas"><img src="/images/papers-thumb.png" alt="“A4” MediaWiki skin thumbnail" /> Fig. 2: Joey’s Papers<br /><small>MediaWiki skin, 2011</small></a>
-            <a href="/christiangiftandbible"><img src="/images/christiangiftandbible-thumb.png" alt="Bookstore Drupal theme thumbnail" /> Fig. 3: Christian Gift & Bible<br /><small>Drupal theme, 2007</small></a>
-            <a href="/syzygy"><img src="/images/syzygy-thumb.png" alt="“Syzygy” WordPress theme thumbnail" /> Fig. 4: Syzygy<br /><small>WordPress theme, 2006</small></a>
+            <a href="http://joeyday.com"><img src="/images/lyte-thumb.png" alt="“Lyte” WordPress theme thumbnail" /> Fig. 1: Joey’s Blog<br /><small>“Lyte” WordPress theme, 2014</small></a>
+            <a href="http://totascriptura.org/view/Providence"><img src="/images/totascriptura-thumb.png" alt="“Skinny” MediaWiki skin thumbnail" /> Fig. 2: Tota Scriptura<br /><small>“Skinny” MediaWiki skin, 2013</small></a>
+            <a href="http://papers.jday.us/view/efas"><img src="/images/papers-thumb.png" alt="“A4” MediaWiki skin thumbnail" /> Fig. 3: Joey’s Papers<br /><small>“A4” MediaWiki skin, 2011</small></a>
+            <a href="/christiangiftandbible"><img src="/images/christiangiftandbible-thumb.png" alt="Bookstore Drupal theme thumbnail" /> Fig. 4: Christian Gift & Bible<br /><small>Drupal theme, 2007</small></a>
             <a href="/fellowsites"><img src="/images/fellowsites-thumb.png" alt="Web host WordPress theme thumbnail" /> Fig. 5: FellowSites<br /><small>WordPress theme, 2005</small></a>
             <a href="/union"><img src="/images/union-thumb.png" alt="A. Ray Olpin Union website thumbnail" /> Fig. 6: A. Ray Olpin Union<br /><small>static brochure site, 2003</small></a>
+            <?php /* <a href="/syzygy"><img src="/images/syzygy-thumb.png" alt="“Syzygy” WordPress theme thumbnail" /> Fig. 5: Syzygy<br /><small>WordPress theme, 2006</small></a> */ ?>
         </div>
         <div class="footer">
             <div class="links">
